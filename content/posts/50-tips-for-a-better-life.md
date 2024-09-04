@@ -1,7 +1,7 @@
 +++
 title = '50 Tips for a Better Life & VSCode 分段'
 date = 2024-09-05T01:53:52+08:00
-draft = true
+draft = false
 +++
 
 50 Tips For A Better Life
@@ -80,7 +80,6 @@ draft = true
 16.在人际关系中，寻找一个你可以享受的人，只是在附近闲逛。长期的关系大多只是用来冷却。
 
 17. Don’t complain about your partner to coworkers or online. The benefits are negligible and the cost is destroying a bit of your soul. 17.不要向同事或网上抱怨你的伴侣。好处是微不足道的，代价是摧毁你的灵魂。
-
 18. After a breakup, cease all contact as soon as practical. The potential for drama is endless, and the potential for a good friendship is negligible. Wait a year before trying to be friends again.
 
 18.分手后，尽快停止所有联系。戏剧的潜力是无穷的，而一段好的友谊的潜力是微不足道的。再等一年再做朋友。
