@@ -13,7 +13,7 @@
       <link>http://localhost:2319/posts/my-first-post/</link>
       <pubDate>Wed, 04 Sep 2024 02:43:32 +0800</pubDate>
       <guid>http://localhost:2319/posts/my-first-post/</guid>
-      <description>Introduction This is bold text, and this is emphasized text.&#xA;Visit the Hugo website!&#xA;正文 今天终于是想起来配置一下个人网站了，也算是留点赛博遗产，帮助一下同样有需要的人，毕竟我也是知道在网上搜东西搜不到有多痛苦 XD</description>
+      <description>Introduction This is bold text, and this is emphasized text.&#xA;Visit the Hugo website!&#xA;正文 今天终于是想起来配置一下个人网站了，也算是留点赛博遗产，帮助一下同样有需要的人，毕竟我也是知道在网上搜东西搜不到有多痛苦 XD&#xA;看了Web：使用Hugo和Github Page创建个人博客 · Feishiko&#39;s Blog Site后，结合GitHub页面上的主机|雨果 &amp;mdash; Host on GitHub Pages | Hugo (gohugo.io)，算是把博客配好了&#xA;github有几点要注意，一是分支名字要一样；二是要用第二个网页的方法要上传完整项目，但是看飞鱼子说只要上传public就可以了，应该是使用的action配置文件不一样；三是environment protect可能限制只有哪个分支可以生成github page，记得修改</description>
     </item>
   </channel>
 </rss>
