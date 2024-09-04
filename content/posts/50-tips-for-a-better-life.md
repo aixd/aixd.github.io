@@ -19,6 +19,7 @@ draft = false
 1.你不必热爱你的工作。工作是赚钱的一种方式。许多人把赚来的钱花在他们关心的事情上，过着不错的生活。
 
 [2](https://en.wikipedia.org/wiki/Sturgeon%27s_law#). Sturgeon’s law states that 90% of everything is crap. If you dislike poetry, or fine art, or anything, it’s possible you’ve only ever seen the crap. Go looking!
+
 2.Sturgeon 定律指出，90%的东西都是垃圾。如果你不喜欢诗歌，或美术，或任何东西，你可能只见过垃圾。去找吧！
 
 [3](https://www.greaterwrong.com/posts/YSWa8rYeD3aDaofSP/rational-home-buying). People don’t realize how much they hate commuting. A nice house farther from work is not worth the fraction of your life you are giving to boredom and fatigue.
@@ -39,7 +40,9 @@ draft = false
 
 6.你对分手还是离职犹豫不决？你也许应该去做。一般来说，人们在冒险的时候会更快乐。
 
-[7](https://jessegalef.com/2020/08/09/a-pretty-good-mathematical-model-of-perfectionism/). Done is better than perfect. 7.第一次会议。完成总比完美好。
+[7](https://jessegalef.com/2020/08/09/a-pretty-good-mathematical-model-of-perfectionism/). Done is better than perfect.
+
+7.完成总比完美好。
 
 8. Discipline is superior to motivation. The former can be trained, the latter is fleeting. You won’t be able to accomplish great things if you’re only relying on motivation.
 
@@ -63,7 +66,7 @@ draft = false
 
 13. Make accomplishing things as easy as possible. Find the easiest way to start exercising. Find the easiest way to start writing. People make things harder than they have to be and get frustrated when they can’t succeed. Try not to.
 
-13.让事情尽可能容易地完成。找到最简单的方法开始锻炼。找到最简单的方法开始写作。人们把事情变得比他们必须做的更难，当他们不能成功时会感到沮丧。尽量不要
+13.让事情尽可能容易地完成。找到最简单的方法开始锻炼。找到最简单的方法开始写作。人们把事情变得比他们必须做的更难，当他们不能成功时会感到沮丧。尽量不要这样。
 
 14. Cultivate a reputation for being dependable. Good reputations are valuable because they’re rare (easily destroyed and hard to rebuild). You don’t have to brew the most amazing coffee if your customers know the coffee will always be hot.
 
@@ -79,7 +82,10 @@ draft = false
 
 16.在人际关系中，寻找一个你可以享受的人，只是在附近闲逛。长期的关系大多只是用来冷却。
 
-17. Don’t complain about your partner to coworkers or online. The benefits are negligible and the cost is destroying a bit of your soul. 17.不要向同事或网上抱怨你的伴侣。好处是微不足道的，代价是摧毁你的灵魂。
+17. Don’t complain about your partner to coworkers or online. The benefits are negligible and the cost is destroying a bit of your soul.
+
+17.不要向同事或网上抱怨你的伴侣。好处是微不足道的，代价是摧毁你的灵魂。
+
 18. After a breakup, cease all contact as soon as practical. The potential for drama is endless, and the potential for a good friendship is negligible. Wait a year before trying to be friends again.
 
 18.分手后，尽快停止所有联系。戏剧的潜力是无穷的，而一段好的友谊的潜力是微不足道的。再等一年再做朋友。
@@ -152,8 +158,7 @@ draft = false
 
 33.不要因为尝试而惩罚别人。你教他们不要尝试和你在一起。惩罚包括抱怨他们花了这么长时间，他们做得很糟糕，或者其他人做得更好。
 
-[34](https://www.youtube.com/watch?v=17fRzsbcME
-0).Don't punish people for admitting they were wrong, you make it harder for them to improve.
+[34](https://www.youtube.com/watch?v=17fRzsbcME0).Don't punish people for admitting they were wrong, you make it harder for them to improve.
 
 34.不要因为人们承认错误而惩罚他们，这会让他们更难进步。
 
@@ -226,5 +231,7 @@ draft = false
 50.当你问别人：“你最喜欢的书/电影/乐队是什么？”如果他们结结巴巴，问他们目前最喜欢的书/电影/乐队。他们几乎总是有一个，并能够谈论它。
 
 最后顺便说一下，因为沉浸式翻译不会自动分段，我用 vscode 的正则替换分的段，查找栏填 `(\d.\.)`，替换栏填 `\n$1`
+
 然后又发现我的 md 插件在保存后会自动 format 成不分段的情况，一番抉择后选择了调整汉化的缩进(" +(\d+\.[^a-z ])" -> "\n $1")
+
 然后发现还是不好用，改成两个换行终于不会被 format 折磨了，不过排版还是一坨，凑合看吧。
