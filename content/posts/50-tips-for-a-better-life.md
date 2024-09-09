@@ -162,7 +162,9 @@ draft = false
 
 34.不要因为人们承认错误而惩罚他们，这会让他们更难进步。
 
-35. In general, you will look for excuses to not be kind to people. Resist these. 35.总的来说，你会找借口对人不好。抵制这些。
+35. In general, you will look for excuses to not be kind to people. Resist these.
+
+35.总的来说，你会找借口对人不好。抵制这些。
 
 ## Possessions 财产
 
@@ -238,4 +240,4 @@ draft = false
 
 然后发现还是不好用，改成两个换行终于不会被 format 折磨了，不过排版还是一坨，凑合看吧。
 
-而且github action还是挺慢的，可以本地hugo server跑一下看看效果再push
+而且 github action 还是挺慢的，可以本地 hugo server 跑一下看看效果再 push
