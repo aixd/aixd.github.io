@@ -1,14 +1,12 @@
----
-slug: markov-chain
-title: Markov Chain
-tags: [etc]
----
++++
+title = 'To Do From Flutter'
+date = 2024-10-27T11:40:34+08:00
+draft = true
++++
 
 ## what is Markov Chain?
 
 马尔科夫链聚焦于这样的问题: 我们能够从任意的目前状态预测所有未来的状态和其转移概率.
-
-<!-- truncate -->
 
 例子:
 - 一个句子中, 字母的元音和辅音, 及其转移的概率(蒙特卡罗方法)
