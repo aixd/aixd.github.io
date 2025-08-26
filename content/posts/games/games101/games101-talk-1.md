@@ -1,7 +1,7 @@
 +++
 title = 'Games101 Talk 1'
 date = 2024-10-09T18:46:17+08:00
-draft = true
+draft = false
 +++
 
 记个笔记，用来 review

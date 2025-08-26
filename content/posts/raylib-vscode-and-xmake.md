@@ -1,7 +1,7 @@
 +++
 title = 'Raylib, VSCode and Xmake'
 date = 2024-09-22T06:13:33+08:00
-draft = true
+draft = false
 +++
 
 ## 前言

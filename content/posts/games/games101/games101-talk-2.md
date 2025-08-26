@@ -1,7 +1,7 @@
 +++
 title = 'Games101 Talk 2'
 date = 2024-10-14T07:58:06+08:00
-draft = true
+draft = false
 +++
 
 全写一集里面 vscode 的 md viewer 会卡(感觉是因为要渲染大量 tex 的原因), 所以分段, 分段没有任何时间上的关系.

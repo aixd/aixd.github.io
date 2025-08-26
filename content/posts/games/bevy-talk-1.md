@@ -1,7 +1,7 @@
 +++
 title = 'Bevy Talk 1'
 date = 2024-09-30T01:19:43+08:00
-draft = true
+draft = false
 +++
 
 Time to forget siv3d，主要是它和clangd的相性似乎真的不怎么样，如果有的选我还是宁愿raylib了。但是C明显还是太古早了，说到新潮，作为新生代的 Rust 和它的 Bevy 就来了。
