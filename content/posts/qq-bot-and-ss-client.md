@@ -14,7 +14,7 @@ draft = false
 
 遵循[botuniverse/onebot-11: OneBot 11 标准 (github.com)](https://github.com/botuniverse/onebot-11)
 
-#### 配置
+### 配置
 
 连的bot用的是反向ws，ss客户端用的是正向ws。本地的话正向ws的host就不用写，不知道开在服务器上的话要不要写
 

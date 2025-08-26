@@ -34,16 +34,30 @@ STFW 也没找到什么好用的解决方案，郁闷完了。
 
 无奈之下下载了 vs，确实很简单就能跑起来了，打开模板即可。
 
+但是vs还是太占空间了，如果有办法用vs build tools就搞定的话说什么也不用vs了。但是stfw半天没找到办法。
+
 ## 又从 VS 回到 WSL
 
-VS 那边想不出办法，回头看看 WSL。
+VS build tools 那边想不出办法，回头看看 WSL。
 
-继续 STFW 找到了关键，他指出[WSL doesn&#39;t support any version of OpenGL newer than 3.x](https://github.com/alecjacobson/computer-graphics-shader-pipeline/issues/47#issuecomment-550646871)，继续 STFW 发现好像有可能是真的，因为 d3d11 到 opengl 的一些支持问题，但是也看到有人提出了一些解法[Can wsl2 support a higher version of OpenGL? · microsoft/WSL · Discussion #6154 (github.com)](https://github.com/microsoft/WSL/discussions/6154)
+继续 STFW 找到了关键，他指出[WSL doesn&#39;t support any version of OpenGL newer than 3.x](https://github.com/alecjacobson/computer-graphics-shader-pipeline/issues/47#issuecomment-550646871)，继续 STFW 发现好像有可能是真的，因为 d3d11 到 opengl 的一些支持问题。但是也看到有人提出了一些解法[Can wsl2 support a higher version of OpenGL? · microsoft/WSL · Discussion #6154 (github.com)](https://github.com/microsoft/WSL/discussions/6154)
 
-然后又在上一个里面找到了这个能用的 ppa[kisak-mesa fresh : kisak (launchpad.net)](https://launchpad.net/~kisak/+archive/ubuntu/kisak-mesa)，装上后也是成功的运行起来了。
+然后又在上一个里面找到了这个能用的 ppa [kisak-mesa fresh : kisak (launchpad.net)](https://launchpad.net/~kisak/+archive/ubuntu/kisak-mesa)，装上后也是成功的运行起来了。
 
 ## 又又从 WSL 回到 VS
 
 vs 只要打开模板就能启动让我意识到了模板才是关键，于是我下载了模板并解压，结合微软官网的教程（[演练：使用 MSBuild 创建 Visual Studio C++ 项目 | Microsoft Learn](https://learn.microsoft.com/zh-cn/cpp/build/walkthrough-using-msbuild-to-create-a-visual-cpp-project?view=msvc-170)，以及等等等等）发现 vcxproj 里就包含了编译信息，遂转回VSCode，成功运行。
 
-目前仍存在的问题：Clangd对Siv3d.hpp的补全完全无能为力。
+目前仍存在的问题：Clangd对Siv3d.hpp的补全完全无能为力，所以其实和VSCode关系不大了，完全是在用VS Build Tools撑着。不过换用Cpp扩展能跑起来，但写着体验不如VS（补全和跳转比Clangd慢太多了），可能一时半会是卸不掉VS了。
+
+顺便CMake和XMake使用VS Build Tools的工具链生成出来的都是sln文件（Solution在VS叫解决方案，也很无厘头），还是要msbuild才生成可执行文件，不能一步到位也挺让人恼火的。
+
+结论就是要玩siv3d最好是直接上VS，VS Build Tools本身的定位很微妙。
+
+## Update 10/6：一个月后
+
+一个月过去，我的cpp水平不说突飞猛进吧，也可以说是完全没动。但是最后终于是找到很有可能的导致clangd用不了的原因了，记录一下。
+
+一句话：**Siv3D用的这个功能Clang没有实现。**
+
+就是这样。
